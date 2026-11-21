@@ -163,7 +163,9 @@ export default function Hero({ onOpenResume }) {
                         <span className="text-cyan-400 font-semibold">
                           Systems Limited (Lahore)
                         </span>
-                        <p className="text-slate-400">DevOps Intern • CI/CD & Docker</p>
+                        <p className="text-slate-400">
+                          DevOps Intern (Jul – Sep 2026)
+                        </p>
                       </div>
                       <span className="px-2 py-0.5 rounded bg-cyan-500/15 text-cyan-300 text-[10px]">
                         DevOps
@@ -175,7 +177,7 @@ export default function Hero({ onOpenResume }) {
                           DevelopersHub Corporation
                         </span>
                         <p className="text-slate-400">
-                          Frontend Developer Intern (Remote)
+                          Frontend Intern • Remote (May – Jun 2026)
                         </p>
                       </div>
                       <span className="px-2 py-0.5 rounded bg-violet-500/15 text-violet-300 text-[10px]">

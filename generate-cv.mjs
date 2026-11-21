@@ -195,7 +195,7 @@ function generateCV(outPath) {
     drawEntryHeader(
       'DevOps Engineer Intern',
       'Systems Limited, Lahore, Pakistan',
-      '2025 – 2026'
+      'July 2026 – Sept 2026'
     );
     drawBullet(
       'Assisted in configuring, maintaining, and monitoring automated CI/CD pipelines (GitHub Actions / GitLab CI) for build, test, and multi-stage deployment workflows at Pakistan’s premier enterprise IT software house.'
@@ -213,7 +213,7 @@ function generateCV(outPath) {
     drawEntryHeader(
       'Frontend Developer Intern (Remote)',
       'DevelopersHub Corporation',
-      '2025'
+      'May 2026 – June 2026'
     );
     drawBullet(
       'Engineered responsive, modern web interfaces and reusable UI component libraries using React.js, JavaScript (ES6+), and Tailwind CSS within a distributed remote agile engineering team.'
