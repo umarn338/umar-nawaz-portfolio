@@ -11,13 +11,14 @@ export const PROFILE = {
   githubHandle: "github.com/umarn338",
   linkedin: "https://linkedin.com/in/umar-nawaz-un338",
   linkedinHandle: "linkedin.com/in/umar-nawaz-un338",
+  portfolioUrl: "https://umar-nawaz-portfolio-omega.vercel.app",
   resumeUrl: "/Umar_Nawaz_CV.pdf",
   availability: "Open to Frontend, Mobile & DevOps Engineer Opportunities",
   summary:
-    "Software Engineering graduate from COMSATS University Islamabad with hands-on industry experience across Frontend & Mobile Engineering (Firnas Tech) and Enterprise DevOps (Systems Limited, Lahore). Experienced in crafting responsive, high-conversion user interfaces with React.js, Tailwind CSS, and Flutter while automating cloud deployments, CI/CD workflows, and backend integrations using Supabase, Firebase, and modern DevOps tooling.",
+    "Software Engineering graduate (BSSE, COMSATS University Islamabad) with hands-on industry experience across Enterprise DevOps (Systems Limited, Lahore) and Frontend & Mobile Application Engineering (DevelopersHub Corporation & Firnas Tech). Proven track record of architecting responsive, high-conversion user interfaces with React.js, Tailwind CSS, and Flutter while automating cloud deployments, CI/CD workflows, and backend integrations using Supabase, Firebase, and Docker.",
   stats: [
     { label: "Flagship Apps Built", value: "4+", detail: "Web & Mobile Production UIs" },
-    { label: "Industry Internships", value: "2", detail: "Systems Ltd Lahore & Firnas Tech" },
+    { label: "Industry Internships", value: "3", detail: "Systems Ltd, DevelopersHub & Firnas" },
     { label: "Core Stack", value: "React & Flutter", detail: "+ DevOps CI/CD & Supabase" },
     { label: "Degree", value: "BS SE", detail: "COMSATS University (Mar 2026)" },
   ],
@@ -26,9 +27,9 @@ export const PROFILE = {
 export const EXPERIENCES = [
   {
     id: "exp-systems-ltd",
-    role: "DevOps Intern",
+    role: "DevOps Engineer Intern",
     company: "Systems Limited",
-    location: "Lahore, Pakistan",
+    location: "Lahore, Pakistan (On-Site)",
     period: "2025 – 2026",
     type: "Enterprise IT & Cloud Infrastructure",
     badge: "Enterprise DevOps",
@@ -36,13 +37,31 @@ export const EXPERIENCES = [
     description:
       "Gained hands-on enterprise DevOps and cloud automation experience at Pakistan's premier global technology and software house.",
     achievements: [
-      "Assisted in configuring, maintaining, and monitoring CI/CD pipelines (GitHub Actions / GitLab CI) for automated build, test, and deployment workflows.",
-      "Worked with containerized application environments using Docker to standardize development and staging deployments across teams.",
-      "Collaborated with engineering and infrastructure teams on Linux server administration, environment configuration, and deployment troubleshooting.",
-      "Applied version control best practices, branch protection workflows, and release automation to reduce manual deployment overhead and improve reliability.",
-      "Monitored application health, logs, and build artifacts to ensure smooth continuous delivery across multi-stage environments.",
+      "Assisted in configuring, maintaining, and monitoring automated CI/CD pipelines (GitHub Actions / GitLab CI) for build, test, and multi-stage deployment workflows.",
+      "Worked with containerized application environments using Docker and Linux CLI to standardize development and staging deployments across engineering teams.",
+      "Collaborated with infrastructure and product teams on server environment setup, release automation, and deployment log diagnostics.",
+      "Applied Git branching best practices and automated deployment checks to reduce manual release overhead and improve deployment reliability.",
     ],
-    tech: ["CI/CD Pipelines", "Docker", "GitHub Actions", "Linux", "Git", "Cloud Deployment", "Shell Scripting", "Monitoring"],
+    tech: ["CI/CD Pipelines", "Docker", "GitHub Actions", "Linux CLI", "Git", "Cloud Deployment", "Shell Scripting", "Monitoring"],
+  },
+  {
+    id: "exp-developers-hub",
+    role: "Frontend Developer Intern",
+    company: "DevelopersHub Corporation",
+    location: "Remote",
+    period: "2025",
+    type: "Remote Frontend Web Engineering",
+    badge: "Remote Frontend",
+    highlightColor: "from-violet-500 to-indigo-600",
+    description:
+      "Engineered responsive, modern web interfaces and reusable React.js component libraries within a distributed remote agile engineering team.",
+    achievements: [
+      "Developed responsive, pixel-accurate web interfaces and reusable UI components using React.js, JavaScript (ES6+), and Tailwind CSS.",
+      "Integrated dynamic frontend views with RESTful APIs, managed client-side application state, and optimized rendering performance.",
+      "Ensured cross-browser compatibility and mobile-first responsiveness across desktop, tablet, and mobile viewports.",
+      "Collaborated asynchronously via Git and GitHub pull requests, peer code reviews, and structured agile sprint milestones.",
+    ],
+    tech: ["React.js", "JavaScript (ES6+)", "Tailwind CSS", "HTML5/CSS3", "REST APIs", "Git & GitHub", "Responsive UI"],
   },
   {
     id: "exp-firnas-tech",
@@ -54,15 +73,14 @@ export const EXPERIENCES = [
     badge: "Frontend & Mobile",
     highlightColor: "from-emerald-500 to-teal-600",
     description:
-      "Developed responsive, user-centric web and mobile interfaces in an agile product team using React.js, Tailwind CSS, and Flutter.",
+      "Developed responsive, user-centric web and cross-platform mobile interfaces in an agile product team using React.js, Tailwind CSS, and Flutter.",
     achievements: [
-      "Assisted in developing responsive frontend interfaces for production web and mobile applications.",
-      "Engineered modular, reusable UI components and design system elements to accelerate feature delivery.",
-      "Collaborated closely with cross-functional team members on debugging, state management, and feature implementation.",
-      "Participated in usability testing, cross-device responsiveness audits, and frontend performance optimization.",
-      "Used Git and GitHub for collaborative version control, pull requests, and code reviews within modern software workflows.",
+      "Assisted in developing responsive frontend interfaces for production web and mobile applications using React.js and Flutter.",
+      "Engineered modular, reusable UI components and design system elements to accelerate feature delivery and maintain visual consistency.",
+      "Collaborated closely with team members on debugging, state management, feature implementation, and usability testing.",
+      "Used Git and GitHub for collaborative version control, branch management, and modern software engineering workflows.",
     ],
-    tech: ["React.js", "Flutter", "JavaScript (ES6+)", "Tailwind CSS", "HTML5/CSS3", "Git & GitHub", "REST APIs"],
+    tech: ["React.js", "Flutter", "Dart", "JavaScript (ES6+)", "Tailwind CSS", "HTML5/CSS3", "Git & GitHub"],
   },
 ];
 
@@ -70,10 +88,10 @@ export const PROJECTS = [
   {
     id: "loom-and-label",
     title: "Loom & Label — Luxury Fashion & Boutique E-Commerce",
-    subtitle: "Currently Active Flagship Project • Full-Stack E-Commerce Platform",
+    subtitle: "Ongoing Flagship Project • Full-Stack E-Commerce Platform",
     category: "Web App",
     featured: true,
-    status: "Active Development (2026)",
+    status: "Ongoing (2026)",
     image: "/loom-and-label-preview.jpg",
     monogram: "/loom-monogram-gold.png",
     githubUrl: "https://github.com/umarn338/loom-and-label",
@@ -95,11 +113,11 @@ export const PROJECTS = [
       { label: "Admin", value: "Live Catalog CRUD" },
     ],
     highlights: [
-      "Built a full-featured luxury boutique storefront with Pret, Unstitched 3-Pc, Festive Wear, Men's Kurta, Accessories, and Archive Sale filtering.",
-      "Integrated Supabase backend (`@supabase/supabase-js`) for real-time product inventory management, customer authentication, and persistent admin catalog operations.",
-      "Engineered an Admin Dashboard allowing store managers to create, update, delete, and reset products with multi-angle imagery and fabric metadata.",
-      "Implemented multi-currency real-time conversion (PKR, USD, AED), interactive Cart & Wishlist drawers, Size Guide modal, and seamless WhatsApp order checkout.",
-      "Crafted a signature luxury stationery & crystal-glass visual system with full Dark and Light mode support, floral watermarks, and digital Grand Opening invitation cards.",
+      "Architected a full-featured luxury boutique storefront with Pret, Unstitched 3-Pc, Festive Wear, Men's Kurta, Accessories, and Archive Sale filtering.",
+      "Integrated Supabase backend (@supabase/supabase-js) for real-time product inventory synchronization, customer authentication, and persistent admin catalog operations.",
+      "Engineered a Store Manager Admin Dashboard allowing live creation, updating, deletion, and demo reset of products with multi-angle photography and fabric metadata.",
+      "Implemented real-time multi-currency conversion (PKR, USD, AED), interactive Cart & Wishlist drawers, Size Guide modal, and direct WhatsApp order checkout.",
+      "Crafted a signature luxury stationery & crystal-glass visual system with full Dark and Light mode support and digital Grand Opening invitation cards.",
     ],
   },
   {
@@ -110,7 +128,7 @@ export const PROJECTS = [
     featured: true,
     status: "Final Year Project",
     githubUrl: "https://github.com/umarn338",
-    tech: ["Flutter", "Dart", "Firebase Auth", "Cloud Firestore", "Provider / State Mgmt", "Android Studio"],
+    tech: ["Flutter", "Dart", "Firebase Auth", "Cloud Firestore", "State Management", "Android Studio"],
     summary:
       "A comprehensive construction and project site management mobile application built with Flutter and Firebase to digitize field task tracking, worker attendance, and real-time project progress reporting.",
     metrics: [
@@ -124,7 +142,29 @@ export const PROJECTS = [
       "Built responsive, intuitive mobile interfaces in Flutter optimized for on-site supervisors and project managers.",
       "Integrated Firebase Authentication for secure role-based access and Firebase real-time database services for instant multi-device synchronization.",
       "Designed dedicated modules for task assignment, daily attendance logging, and centralized progress reporting dashboards.",
-      "Performed extensive debugging, usability testing, and state optimization to ensure high reliability in field conditions.",
+    ],
+  },
+  {
+    id: "smart-healthcare-app",
+    title: "Smart Healthcare Appointment App",
+    subtitle: "Patient Booking & Medical Records Platform",
+    category: "Web App",
+    featured: false,
+    status: "Completed",
+    githubUrl: "https://github.com/umarn338",
+    tech: ["React.js", "Tailwind CSS", "Firebase Auth", "Firestore", "State Management"],
+    summary:
+      "A healthcare appointment management application featuring specialist doctor discovery, real-time appointment booking, Firebase Authentication, and patient medical history interfaces.",
+    metrics: [
+      { label: "Framework", value: "React.js + Firebase" },
+      { label: "Auth", value: "Firebase Authentication" },
+      { label: "Workflows", value: "Booking & Patient Records" },
+    ],
+    highlights: [
+      "Developed a healthcare appointment management web application with an accessible, modern UI.",
+      "Implemented doctor discovery, specialty filtering, and time-slot appointment scheduling features.",
+      "Created secure patient login and signup flows powered by Firebase Authentication.",
+      "Designed structured patient record views and historical appointment tracking interfaces with form validation.",
     ],
   },
   {
@@ -147,30 +187,6 @@ export const PROJECTS = [
       "Designed and developed a clean, responsive student portal dashboard interface with intuitive navigation.",
       "Implemented interactive attendance tracking, semester GPA display cards, weekly class timetable views, and real-time notification panels.",
       "Built a reusable UI component architecture with seamless Dark and Light mode switching.",
-      "Optimized layout responsiveness across desktop, tablet, and mobile viewports.",
-    ],
-  },
-  {
-    id: "smart-healthcare-app",
-    title: "Smart Healthcare Appointment App",
-    subtitle: "Patient Booking & Medical Records Platform",
-    category: "Web App",
-    featured: false,
-    status: "Completed",
-    githubUrl: "https://github.com/umarn338",
-    tech: ["React.js", "Tailwind CSS", "Firebase Auth", "Firestore", "State Management"],
-    summary:
-      "A healthcare appointment management application featuring specialist doctor discovery, real-time appointment booking, Firebase Authentication, and patient medical history interfaces.",
-    metrics: [
-      { label: "Framework", value: "React.js + Firebase" },
-      { label: "Auth", value: "Firebase Authentication" },
-      { label: "Workflows", value: "Booking & Patient Records" },
-    ],
-    highlights: [
-      "Developed a healthcare appointment management web application with an accessible, reassuring modern UI.",
-      "Implemented doctor discovery, specialty filtering, and time-slot appointment scheduling features.",
-      "Created secure patient login and signup flows powered by Firebase Authentication.",
-      "Designed structured patient record views and historical appointment tracking interfaces with robust form validation.",
     ],
   },
 ];
@@ -182,7 +198,7 @@ export const SKILL_CATEGORIES = [
     subtitle: "Crafting responsive, pixel-accurate web & cross-platform mobile apps",
     badge: "Primary Focus",
     skills: [
-      { name: "React.js (Hooks, Context, SPA)", level: 92 },
+      { name: "React.js (Hooks, Context, SPA Architecture)", level: 92 },
       { name: "Flutter & Dart (Cross-Platform Mobile)", level: 88 },
       { name: "JavaScript (ES6+)", level: 90 },
       { name: "Tailwind CSS & Responsive UI Design", level: 95 },

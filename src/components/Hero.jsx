@@ -3,8 +3,6 @@ import {
   ArrowRight,
   Download,
   FileText,
-  Github,
-  Linkedin,
   Mail,
   MapPin,
   Phone,
@@ -63,16 +61,16 @@ export default function Hero({ onOpenResume }) {
             {/* Role Pillars */}
             <div className="flex flex-wrap gap-2.5 pt-1">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium text-slate-700 dark:text-slate-300 shadow-2xs">
-                <Code2 className="w-4 h-4 text-emerald-500" />
-                <span>React.js & Tailwind CSS</span>
-              </div>
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium text-slate-700 dark:text-slate-300 shadow-2xs">
-                <Smartphone className="w-4 h-4 text-teal-500" />
-                <span>Flutter & Firebase Mobile</span>
-              </div>
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium text-slate-700 dark:text-slate-300 shadow-2xs">
                 <Server className="w-4 h-4 text-cyan-500" />
                 <span>DevOps Intern @ Systems Ltd Lahore</span>
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium text-slate-700 dark:text-slate-300 shadow-2xs">
+                <Code2 className="w-4 h-4 text-violet-500" />
+                <span>Frontend Intern @ DevelopersHub (Remote)</span>
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium text-slate-700 dark:text-slate-300 shadow-2xs">
+                <Smartphone className="w-4 h-4 text-emerald-500" />
+                <span>Frontend & Mobile @ Firnas Tech</span>
               </div>
             </div>
 
@@ -92,7 +90,7 @@ export default function Hero({ onOpenResume }) {
                 className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-900 dark:text-white font-semibold text-sm border border-slate-200 dark:border-slate-800 shadow-sm transition-all cursor-pointer"
               >
                 <FileText className="w-4 h-4 text-emerald-500" />
-                <span>View Updated CV</span>
+                <span>Preview Updated CV</span>
               </button>
 
               <a
@@ -101,7 +99,7 @@ export default function Hero({ onOpenResume }) {
                 className="inline-flex items-center gap-2 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white text-sm font-medium hover:bg-slate-100 dark:hover:bg-slate-900 transition-colors"
               >
                 <Download className="w-4 h-4" />
-                <span>Original PDF</span>
+                <span>Download Updated PDF</span>
               </a>
             </div>
 
@@ -165,10 +163,23 @@ export default function Hero({ onOpenResume }) {
                         <span className="text-cyan-400 font-semibold">
                           Systems Limited (Lahore)
                         </span>
-                        <p className="text-slate-400">DevOps Intern • CI/CD & Cloud</p>
+                        <p className="text-slate-400">DevOps Intern • CI/CD & Docker</p>
                       </div>
                       <span className="px-2 py-0.5 rounded bg-cyan-500/15 text-cyan-300 text-[10px]">
                         DevOps
+                      </span>
+                    </div>
+                    <div className="border-t border-slate-800/80 pt-2 flex items-start justify-between gap-2">
+                      <div>
+                        <span className="text-violet-400 font-semibold">
+                          DevelopersHub Corporation
+                        </span>
+                        <p className="text-slate-400">
+                          Frontend Developer Intern (Remote)
+                        </p>
+                      </div>
+                      <span className="px-2 py-0.5 rounded bg-violet-500/15 text-violet-300 text-[10px]">
+                        Remote
                       </span>
                     </div>
                     <div className="border-t border-slate-800/80 pt-2 flex items-start justify-between gap-2">
@@ -196,7 +207,7 @@ export default function Hero({ onOpenResume }) {
                         <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
                         Loom & Label Boutique E-Commerce
                       </span>
-                      <span className="text-[10px] text-emerald-400">ACTIVE</span>
+                      <span className="text-[10px] text-emerald-400">ONGOING</span>
                     </div>
                     <p className="text-[11px] text-slate-400 mt-1">
                       React 18 • Tailwind CSS • Supabase • Multi-Currency • Admin CRUD
